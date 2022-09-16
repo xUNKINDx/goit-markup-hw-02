@@ -1,0 +1,210 @@
+/* цвет основного текста 757575 */
+/* цвет оглавлений 212121 */
+/* цвет белый FFFFFF */
+/* цвет синих елементов 2196F3 */
+/* цвет черный 000000 */
+/* цвет с прозрачностью в футере rgba(255, 255, 255, 0.6) */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-wight-color: #ffffff;
+    --secondary-wight-color: #F5F4FA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style: none;
+}
+
+/* логотип */
+
+.logo-first {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    color: var(--accent-color);
+}
+
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    color: #000000;
+}
+
+/* кнопки в шапке */
+
+.site-nav .link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+    color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color)
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* главный титул */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--primary-wight-color);
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: var(--primary-wight-color);
+    background-color: var(--accent-color);
+}
+
+/* преимущества */
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--title-text-color);
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: var(--primary-text-color);
+}
+
+/* Work */
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--title-text-color)
+}
+
+/* employees */
+
+.employees {
+    background: #F5F4FA; 
+}
+
+.employees-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--title-text-color);
+}
+
+.employees-username {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    color: var(--title-text-color)
+}
+
+.employees-workname {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.footer {
+    background: #2F303A;
+}
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    color: var(--primary-wight-color);
+}
+
+.contacts {
+    list-style: none;
+}
+
+.contacts .link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: var(--primary-wight-color);
+}
+
+.contacts .gmail-call {
+    font-weight: 400;
+    font-size: 14px;benefits
+    line-height: 1.71;
+
+    color: rgba(255, 255, 255, 0.6);
+}
