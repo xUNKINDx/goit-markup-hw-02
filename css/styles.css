@@ -4,6 +4,9 @@
 /* цвет синих елементов 2196F3 */
 /* цвет черный 000000 */
 /* цвет с прозрачностью в футере rgba(255, 255, 255, 0.6) */
+
+/* стили для index.html */
+
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -225,7 +228,7 @@ ul {
     color: var(--accent-color);
 }
 
-/* вторая страница */
+/* стили для portfolio.html */
 /* кнопки */
 .choice {
     background: #f5f5f5;
