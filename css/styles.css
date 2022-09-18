@@ -253,6 +253,12 @@ a:link
     color: var(--title-text-color);
 }
 
+.choice .choice-button:hover,
+.choice .choice-button:focus {
+    color: #FFFFFF;
+    background: var(--accent-color)
+}
+
 /* примеры работ */
 
 .work-examples {
